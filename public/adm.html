@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>CPHSSR - Student Registration</title>
+</head>
+
+<body>
+<!--  Navbar -->
+	
+<nav class="navbar navbar-expand-sm  navbar-light sticky" >
+	<div class="container-fluid">
+		<div class="col-sm-5" style="height: 75px">
+		<h3 style="color: white; margin-top: 20px"> CPHSSR - Student Registration Form</h3>	 </div>
+<div class="col-sm-5">
+	<ul class="navbar-nav mr-auto">
+		<li class="nav-item active">
+			<a href="CPHSS - Rohri.html" class="nav-link"> Home </a> </li>
+
+			<li class="nav-item active">
+			<a href="CPHSS-Gallery.html" class="nav-link" target="_blank"> Gallery </a> </li>
+
+		<li class="nav-item active">
+			<a href="About Us.html" target="_blank" class="nav-link"> About Us </a> </li>
+
+		<li class="nav-item disabled">
+			<a href="Admissions.html" target="_blank" class="nav-link"> Admissions </a> </li>
+
+		<li class="nav-item dropdown">
+			   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact Us </a> 
+          <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
+          	<a class="dropdown-item" href="https://web.facebook.com/cphssrohri/" target="_blank"> Facebook </a>
+          	<a class="dropdown-item" href="#">  </a>
+          </div>
+      </li>
+
+	</ul>
+</div>
+		</div>
+	</nav>
+
+<div class="container">
+
+
+<form method="get" action="file:///C:/Users/Rizvi&#39;s/Desktop/Project/public/Submit.html">
+
+
+<table id="table" align="center" cellpadding="10">
+ 
+
+<tbody><tr>
+<td>FIRST NAME</td>
+<td><input id="name" type="text" name="name" maxlength="30" placeholder="ENTER YOUR FIRST NAME AS PER CNIC" required="">
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+
+
+<tr>
+<td>LAST NAME</td>
+<td><input id="name" type="text" name="lastname" maxlength="30" placeholder="ENTER YOUR LAST NAME AS PER CNIC" required="">
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+
+
+<tr>
+<td>DATE OF BIRTH</td>
+ 
+<td>
+<select name="Birthday_day" id="DOB" required="">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+ 
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+ 
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+ 
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+ 
+<option value="31">31</option>
+</select>
+ 
+<select id="DOB" name="Birthday_Month" required="">
+<option value="-1">Month:</option>
+<option value="January">Jan</option>
+<option value="February">Feb</option>
+<option value="March">Mar</option>
+<option value="April">Apr</option>
+<option value="May">May</option>
+<option value="June">Jun</option>
+<option value="July">Jul</option>
+<option value="August">Aug</option>
+<option value="September">Sep</option>
+<option value="October">Oct</option>
+<option value="November">Nov</option>
+<option value="December">Dec</option>
+</select>
+ 
+<select name="Birthday_Year" id="DOB" required="">
+ 
+<option value="-1">Year:</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+ 
+</select>
+</td>
+</tr>
+ 
+
+<tr>
+<td>EMAIL ID</td>
+<td><input id="name" type="email" name="Email_Id" maxlength="100" placeholder="ENTER YOUR VALID EMAIL ID" required=""></td>
+</tr>
+ 
+
+
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input id="name" type="text" name="Mobile_Number" maxlength="10" placeholder="ENTER YOUR CELL NUMBER e.g. 03001234567" required="">
+(11 digit number)
+</td>
+</tr>
+
+ 
+
+<tr>
+<td>GENDER</td>
+<td>
+<input type="radio" name="Gender" value="Male"> Male 
+<input type="radio" name="Gender" value="Female"> Female 
+</td>
+</tr>
+ 
+
+<tr>
+<td>ADDRESS <br><br><br></td>
+<td><textarea name="Address" id="name" rows="4" cols="30" placeholder="ENTER YOUR PERMANENT RESEIDENTAL ADDRESS " required=""></textarea></td>
+</tr>
+ 
+
+<tr>
+<td>CITY</td>
+<td><input id="name" type="text" name="City" maxlength="30" placeholder="ENTER YOUR CITY NAME" required="">
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<!--
+<tr>
+<td>PIN CODE</td>
+<td><input id="name" type="text" name="Pin_Code" maxlength="6" placeholder="ENTER YOUR AREA POSTAL CODE" required="">
+(6 digit number)
+</td>
+</tr>
+ -->
+
+<tr>
+<td>STATE</td>
+<td><input id="name" type="text" name="State" size="10" maxlength="15" placeholder="ENTER YOUR STATE / PROVISON" required="">
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+
+<tr>
+<td>COUNTRY</td>
+<td><input id="name" type="text" name="Country" size="10" maxlength="15" placeholder="ENTER YOUR COUNTRY NAME" required=""></td>
+</tr>
+ 
+<tr>
+	<td>CLASS</td>
+<td>
+	<select name="Class" id="Class" required="">
+<option value="-1"></option>
+<option value="1">1st</option>
+<option value="2">2nd</option>
+<option value="3">3rd</option>
+<option value="4">4th</option>
+ 
+<option value="5">5th</option>
+<option value="6">6th</option>
+<option value="7">7th</option>
+<option value="8">8th</option>
+<option value="9">9th</option>
+<option value="10">Matric</option>
+<option value="11">First Year</option>
+<option value="12">Intermediate</option>
+</select>
+</td>
+
+
+<tr>
+<td>HOBBIES <br><br><br></td>
+ 
+<td>
+Drawing
+<input class="button" type="checkbox" name="Hobby_Drawing" value="Drawing">
+Singing
+<input id="button" type="checkbox" name="Hobby_Singing" value="Singing">
+Dancing
+<input id="button" type="checkbox" name="Hobby_Dancing" value="Dancing">
+Sketching
+<input id="button" type="checkbox" name="Hobby_Cooking" value="Cooking">
+<br><br>
+Sports
+<input id="button" type="checkbox" name="Hobby_Sports" value="Sports">
+<input id="Hobbies" type="text" name="Hobby_Sports" maxlength="30" placeholder="What Sports Do You Play?" required="/">
+</td>
+</tr>
+ 
+<!--
+<tr>
+<td>QUALIFICATION <br><br><br><br><br><br><br></td>
+ 
+<td>
+<tr">
+</tr"><table>
+ 
+<tbody><tr>
+<td align="center"><b>Sl.No.</b></td>
+<td align="center"><b>Examination</b></td>
+<td align="center"><b>Board</b></td>
+<td align="center"><b>Percentage</b></td>
+<td align="center"><b>Year of Passing</b></td>
+</tr>
+ 
+
+<tr><td>1</td>
+<td>Class X</td>
+<td><input id="" type="text" name="ClassX_Board" maxlength="30" required=""></td>
+<td><input type="text" name="ClassX_Percentage" maxlength="30" placeholder="CGPA/PERCENTAGE" required=""></td>
+<td><input type="text" name="ClassX_YrOfPassing" maxlength="30" required=""></td>
+</tr>
+ 
+<tr>
+<td>2</td>
+<td>Class XII</td>
+<td><input type="text" name="ClassXII_Board" maxlength="30" required=""></td>
+<td><input type="text" name="ClassXII_Percentage" maxlength="30" placeholder="CGPA/PERCENTAGE" required=""></td>
+<td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" required=""></td>
+</tr>
+ 
+<tr>
+<td>3</td>
+<td>Graduation</td>
+<td><input type="text" name="Graduation_Board" maxlength="30" required=""></td>
+<td><input type="text" name="Graduation_Percentage" maxlength="30" placeholder="CGPA/PERCENTAGE" required=""></td>
+<td><input type="text" name="Graduation_YrOfPassing" maxlength="30" required=""></td>
+</tr>
+ 
+<tr>
+<td>4</td>
+<td>Masters</td>
+<td><input type="text" name="Masters_Board" maxlength="30"></td>
+<td><input type="text" name="Masters_Percentage" maxlength="30" placeholder="CGPA/PERCENTAGE" required=""></td>
+<td><input type="text" name="Masters_YrOfPassing" maxlength="30" required=""></td>
+</tr>
+ 
+
+<tr>
+<td></td>
+<td></td>
+<td align="center">(10 char max)</td>
+<td align="center">(upto 2 decimal)</td>
+</tr>
+</tbody></table>
+ 
+</td>
+</tr>
+ 
+<tr>
+	<td> Course Applied For </td>
+<td>
+	<select name="Courses" id="Courses" required="">
+<option value="-1">Course Applied For</option>
+<option value="CCO">CCO</option>
+<option value="CCNA">CCNA</option>
+<option value="MobAndWeb">Mobile and Web Development</option>
+</select>
+</td>
+</tr>
+-->
+ <br> <br>
+
+<tr>
+<td colspan="5" align="center">
+<a href="submit.html" target="_blank"> <input class=".button" type="submit" value="Submit"> </a>
+<input type="reset" value="Reset">
+</td>
+</tr>
+</tbody></table>
+
+</form>
+</div>
+
+
+	 <footer class="col-sm">
+		&copy;Copyright Reserved - Moiz Rizvi
+	</footer> 
+
+</body>
+<html>

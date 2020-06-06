@@ -1,0 +1,92 @@
+* {
+}
+body {
+	background-color: pink;
+    background-image: linear-gradient(to bottom right, hotpink 10%, white 80%, hotpink);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+}
+
+nav {
+	height: 80px;
+	background:url(logo2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to right, hotpink, white);
+	margin: 5px 10px 5px 10px;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.intro {
+	max-width: 100vw;
+	border-style: inset;
+	max-height: 300px;
+	text-align: center;
+	display: block;
+	margin-left: 30px;
+	font-family: "Simplifica", sans-serif;
+	align-items: center;
+}
+
+.news {
+	width: 100%;
+	height: 70px;
+	border: inset ;
+	margin: 10px 10px 10px 5px;
+	display: inline-block;
+	background-color: white;
+}
+
+.news a {
+	margin-left: 20px;
+	align-items: center;
+	color: blue;
+	font-weight: 12px;
+}
+.flex-row {
+	align-items: top;
+}
+.liveupdts {
+	width: 100%;
+	height: 400px;
+	border: outset;
+	display: flex;
+	background-image: linear-gradient(to bottom right, deeppink, white); 
+	margin: 10px 0px 20px 25px;
+	align-items: flex-start;
+	color: white;
+	font-family: 
+}
+
+.liveupdts p {
+	font-style: italic;
+	display: flex;
+	align-self: flex-end;
+	color: black;
+}
+.form {
+	background-color: white;
+}
+
+footer {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	background-image: linear-gradient(to right, white, hotpink);
+	margin-top: 20px;
+	padding: 20px;
+	width: auto;
+	color: black;
+	z-index: 10;
+}
+
+
+float-left {
+	z-index: 100;
+}
